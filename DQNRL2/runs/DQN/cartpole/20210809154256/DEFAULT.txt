@@ -1,0 +1,10 @@
+[DEFAULT|ERROR] 2021-08-09 15:43:05,866 > [31mAttributeError: 'NoneType' object has no attribute 'scalar_summary'[0m
+[DEFAULT|DEBUG] 2021-08-09 15:43:05,866 > [36mTraceback (most recent call last):
+  File "/Users/tylerkim/Desktop/rlena/DQNRL2/train.py", line 59, in <module>
+    main()
+  File "/Users/tylerkim/Desktop/rlena/DQNRL2/train.py", line 55, in main
+    worker.run()
+  File "/Users/tylerkim/Desktop/rlena/rl2/rl2/workers/base.py", line 164, in run
+    self.logger.scalar_summary(self.info, self.num_steps)
+AttributeError: 'NoneType' object has no attribute 'scalar_summary'
+[0m

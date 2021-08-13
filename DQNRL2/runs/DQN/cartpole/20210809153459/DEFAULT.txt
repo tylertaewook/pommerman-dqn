@@ -1,0 +1,8 @@
+[DEFAULT|ERROR] 2021-08-09 15:35:03,134 > [31mTypeError: __init__() missing 1 required positional argument: 'agent'[0m
+[DEFAULT|DEBUG] 2021-08-09 15:35:03,134 > [36mTraceback (most recent call last):
+  File "/Users/tylerkim/Desktop/rlena/DQNRL2/train.py", line 59, in <module>
+    main()
+  File "/Users/tylerkim/Desktop/rlena/DQNRL2/train.py", line 54, in main
+    worker = MaxStepWorker(env, agent, max_steps=int(1e6), training=True)
+TypeError: __init__() missing 1 required positional argument: 'agent'
+[0m
